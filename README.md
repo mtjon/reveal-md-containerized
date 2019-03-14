@@ -12,8 +12,8 @@ docker container run -it --rm -p 1948:1948 -v $PWD:/home/node/work reveal-md:tag
 
 # Building
 
-The image can simply be built from the Dockerfile by first cloning this and building the image, or&mdash;if you won't be needing the repo and just want the image&mdash;:
+The image can simply be built from the Dockerfile by first cloning this and building the image:
 
 ```shell
-docker image build -t reveal-md:0.1 https://raw.githubusercontent.com/mtjon/reveal-md-containerized/master/Dockerfile
+docker build -t reveal-md:0.1.4 github.com/mtjon/reveal-md-containerized
 ```
