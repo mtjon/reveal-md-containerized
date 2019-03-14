@@ -21,3 +21,5 @@ ENTRYPOINT ["/home/node/.npm-packages/bin/reveal-md"]
 WORKDIR /home/node/work
 
 EXPOSE $REVEAL_PORT
+
+CMD ["."]
