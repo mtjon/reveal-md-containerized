@@ -1,8 +1,8 @@
-LABEL version="0.1.4"
-LABEL description="Crude containerization of reveal-md"
-
 ARG BASE_IMG=node:alpine
 FROM $BASE_IMG
+
+LABEL version="0.1.4"
+LABEL description="Crude containerization of reveal-md"
 
 ARG REVEAL_PORT="1948"
 
